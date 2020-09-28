@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="gnt_default_margin">12dp</dimen>
+  <dimen name="gnt_text_size_small">12sp</dimen>
+  <dimen name="gnt_text_size_large">15sp</dimen>
+  <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+  <dimen name="gnt_no_size">0dp</dimen>
+</resources>

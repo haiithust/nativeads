@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+
+    <style name="RatingBarStar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/gnt_bg_rating_bar</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="android:maxHeight">12dp</item>
+    </style>
+</resources>
