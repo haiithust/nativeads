@@ -11,7 +11,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8dp"
             android:background="@drawable/gnt_outline_shape">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -55,8 +54,7 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:textSize="@dimen/gnt_text_size_large"
-                        android:textStyle="bold"
+                        android:textAppearance="?attr/textAppearanceSubtitle2"
                         app:layout_constraintTop_toTopOf="parent"
                         tools:text="Primary Text" />
 
@@ -87,24 +85,21 @@
                             android:layout_height="wrap_content"
                             android:drawablePadding="8dp"
                             android:ellipsize="end"
-                            android:gravity="top"
+                            android:gravity="center_vertical"
                             android:maxLines="1"
-                            android:textColor="#CC202325"
-                            android:textSize="@dimen/gnt_text_size_small"
+                            android:textAppearance="?attr/textAppearanceOverline"
                             app:drawableStartCompat="@drawable/gnt_ic_ads"
                             tools:text="Secondary" />
 
                     </LinearLayout>
 
-                    <Button
+                    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                         android:id="@+id/cta"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="?attr/colorSecondary"
                         android:lines="1"
-                        android:textSize="@dimen/gnt_ad_indicator_text_size"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/row_two"
                         tools:text="Button" />
