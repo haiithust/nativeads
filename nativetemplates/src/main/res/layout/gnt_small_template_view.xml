@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+    <com.google.android.gms.ads.nativead.NativeAdView
         android:id="@+id/native_ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -97,7 +97,7 @@
                         android:id="@+id/cta"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:minHeight="44dp"
+                        android:minHeight="40dp"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -110,5 +110,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+    </com.google.android.gms.ads.nativead.NativeAdView>
 </merge>
