@@ -50,13 +50,24 @@
 
                     <TextView
                         android:id="@+id/primary"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:maxLines="1"
                         android:textAppearance="?attr/textAppearanceSubtitle2"
                         app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/icon_ads"
                         tools:text="Primary Text" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/icon_ads"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gnt_ic_ads"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        />
 
                     <LinearLayout
                         android:id="@+id/row_two"
@@ -88,7 +99,6 @@
                             android:gravity="center_vertical"
                             android:maxLines="1"
                             android:textAppearance="?attr/textAppearanceOverline"
-                            app:drawableStartCompat="@drawable/gnt_ic_ads"
                             tools:text="Secondary" />
 
                     </LinearLayout>

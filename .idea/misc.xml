@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="nativetemplates/src/main/res/drawable/gnt_ic_ads.xml" value="0.282" />
+        <entry key="nativetemplates/src/main/res/layout/gnt_medium_template_view.xml" value="0.37604166666666666" />
+        <entry key="nativetemplates/src/main/res/layout/gnt_small_template_view.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
