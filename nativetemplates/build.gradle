@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-group = 'com.github.haiithust'
+apply plugin: 'maven-publish'
 
 android {
     compileSdk 34
@@ -35,4 +35,18 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:22.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.android.material:material:1.9.0'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'com.github.haiithust'
+                artifactId = 'nativeads'
+                version = '1.0.17'
+            }
+        }
+    }
 }
